@@ -1,0 +1,34 @@
+{
+  "name": "fuzzy-router",
+  "version": "1.0.0",
+  "description": "Zero-dependency fuzzy matching router that reroutes 404s to the closest known path across any JS framework.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "types": "index.d.ts",
+  "keywords": [
+    "router",
+    "fuzzy",
+    "redirect",
+    "404",
+    "framework-agnostic",
+    "react",
+    "nextjs",
+    "vue",
+    "angular"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "",
+  "repository": "",
+  "bugs": "",
+  "homepage": "",
+  "engines": {
+    "node": ">=18"
+  }
+}
