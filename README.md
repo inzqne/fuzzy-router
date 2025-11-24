@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧭 fuzzy-router
+# 😺🧭 fuzzy-router
 
 Zero-dependency fuzzy-matching router that keeps users on-track by automatically rerouting near-miss URLs (e.g. typos, missing trailing slashes, pluralization mistakes) to the closest known path. Works anywhere you can read a pathname: React Router, Next.js, Remix, Angular, Vue, SvelteKit, Express, Cloudflare Workers... you name it.
 
@@ -135,7 +135,7 @@ Shortcut helper that creates a router on the fly and returns the resolved string
 
 - Always pass normalized route definitions (include leading slash). The helper will normalize for you, but consistency makes debugging easier.
 - For large route tables, pre-create the router once and reuse it instead of calling `fuzzyRedirect` per request.
-- Use a stricter threshold (e.g. `0.25`) for security-sensitive areas where you only want very close matches.
+- Use a stricter threshold (e.g. `0.25`) for sensitive areas where you only want very close matches.
 
 ## Examples
 
@@ -148,7 +148,7 @@ Shortcut helper that creates a router on the fly and returns the resolved string
 Yes! store the canonical template (e.g. `/blog/:slug`). The fuzzy match happens at the string level, independent of the router you ultimately use.
 
 **Is it compatible with both Next.js App Router and Pages Router?**  
-Yes! Anywhere you can read a pathname — middleware, route handlers, API routes, custom servers, server components — you can call `fuzzyRedirect` or re-use a pre-built router to reroute before the response is chosen.
+Yes! Anywhere you can read a pathname (middleware, route handlers, API routes, custom servers, server components, etc), you can call `fuzzyRedirect` or re-use a pre-built router to reroute before the response is chosen.
 
 **Can I handle localization?**  
 Sure. Build separate route lists per locale or namespace your paths.
