@@ -1,0 +1,21 @@
+# Node installs
+node_modules/
+examples/nextjs-app/node_modules/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds / caches
+.next/
+.turbo/
+dist/
+coverage/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+
