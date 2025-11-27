@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧭 fuzzy-router
+# 😺🧭 fuzzy-router
 
 Zero-dependency fuzzy-matching router that keeps users on-track by automatically rerouting near-miss URLs (e.g. typos, missing trailing slashes, pluralization mistakes) to the closest known path. Works anywhere you can read a pathname: React Router, Next.js, Remix, Angular, Vue, SvelteKit, Express, Cloudflare Workers—you name it.
 
